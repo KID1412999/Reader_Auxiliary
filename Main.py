@@ -24,6 +24,7 @@ while(True):
     #  一帧一帧的去捕捉视频
     ret, frame = cap.read()
     image = frame
+    image=cv.cvtColor(image,cv.COLOR_BGR2GRAY)#转为灰度能加速0.21秒
     face_locations = face_recognition.face_locations(image)
     img =image
     for i in face_locations:
