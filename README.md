@@ -5,6 +5,7 @@
 # 步骤
 1.pip install dlib==19.7.0  
 2.pip install numpy
-3.pip install cmake
+3.pip install cmake  
+4.pip install opencv-python  
 3.pip install face_recognition
 
