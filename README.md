@@ -7,5 +7,6 @@
 2.pip install numpy
 3.pip install cmake  
 4.pip install opencv-python  
-3.pip install face_recognition
+3.pip install face_recognition  
+6.pip install pywin32  
 
